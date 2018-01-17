@@ -18,9 +18,9 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="/assets/img/posts/sleek_lg.jpg">
+    <div class="hero lazyload" data-bg="{{ '/assets/img/sleek_lg.jpg' | relative_url }}">
       <div class="hero__wrap">
-      	<img src="/assets/img/oemlogo-white-horizontal-large.png">
+      	<img class="frontlogo" src="{{ '/assets/img/oemlogo-white-horizontal-large.png' | relative_url }}">
       </div>
     </div>
 
